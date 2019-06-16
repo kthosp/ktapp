@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Klongthom Hospitall Application",
+    "name": "Klongthom Hospital Application",
     "slug": "ktapp",
     "privacy": "public",
     "sdkVersion": "33.0.0",
@@ -9,7 +9,7 @@
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -24,7 +24,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.klongthomhospital.www"
+    },
+    "android": {
+      "package": "com.klongthomhospital.www"
     }
   }
 }
