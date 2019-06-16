@@ -1,7 +1,13 @@
 import React from 'react';
-
-import { View, Button, Text, Image, WebView, SafeAreaView } from 'react-native';
+import { View, 
+        Button, 
+        Text, 
+        Image, 
+        WebView, 
+        SafeAreaView ,
+        StyleSheet } from 'react-native';
 //import { Constants } from 'expo';
+import Constants from 'expo-constants';
 
 export default class extends React.Component {
   render() {
@@ -17,6 +23,13 @@ export default class extends React.Component {
         style={{ flex: 1 }} 
         />
      
-    );
+    )
   }
 }
+
+const style = StyleSheet.create({
+  container: {
+    flex : 1,
+    paddingTop : 22.5,
+  },
+})

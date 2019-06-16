@@ -1,7 +1,7 @@
 import * as React from 'react';
-//import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 //import { Constants } from 'expo';
-//import Constants from 'expo-constants';
+import Constants from 'expo-constants';
 import { Ionicons,MaterialCommunityIcons } from '@expo/vector-icons';
 import {
   createAppContainer,
@@ -13,7 +13,7 @@ import {
 import HomeScreen from './screens/HomeScreen';
 import WebScreen from './screens/WebScreen';
 import BarcodeScreen from './screens/BarcodeScreen';
-import RmScreen from './screens/RmScreen';
+//import RmScreen from './screens/RmScreen';
 
 const stackScreen = createMaterialTopTabNavigator(
   {
@@ -24,7 +24,7 @@ const stackScreen = createMaterialTopTabNavigator(
         tabBarLabel: 'หน้าหลัก',
       }),
     },
-
+/*
     RmScreen:{
       screen : RmScreen,
       navigationOptions:({navigation})=>({
@@ -32,7 +32,7 @@ const stackScreen = createMaterialTopTabNavigator(
         tabBarLabel : 'RiskManagement'
       }),
     },
-
+*/
     Web: {
       screen: WebScreen,
       navigationOptions: ({ navigation }) => ({
